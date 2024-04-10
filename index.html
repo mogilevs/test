@@ -7,40 +7,84 @@
     <title>Vanilla App Template</title>
     
     <script type="module" crossorigin src="/test/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/test/assets/index-c9c7cd08.css">
+    <link rel="stylesheet" href="/test/assets/index-10c40100.css">
   </head>
   <body>
-    <section class="advertisement">
-  <p class="advertisement-text">
-    <span class="advertisement-discount">Discount up to 40%!</span>Taste the
-    vitamins and keep your health
-  </p>
+    <header class="header">
+  <nav class="nav">
+    <ul class="nav-list">
+      <li class="nav-item">
+        <a href="./page-2.html" class="nav-link">Page 2</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="./page-3.html" class="nav-link">Page 3</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+
+    <section>
+      <h1>Example page title</h1>
+      <!-- Path to images as from index.html file -->
+      <img src="/test/assets/javascript-8dac5379.svg" alt="" />
+    </section>
+    <section>
+      <section>
+  <h2>Green.Harvest</h2>
 </section>
 
-    <footer class="footer">
-   <div class="footer-container1">
-    <a class="footer-link" href="">green.harvest</a>
-    <p>Whether you're looking for a healthy snack or a thoughtful gift,
-       our fruit baskets are the perfect choice.</p>
-</div>
-   <div class="footer-container3">
-    <ul class="footer-list">
-        <li class="footer-item">HOW IT WORKS</li>
-        <li class="footer-item">vegetables</li>
-        <li class="footer-item">reviews</li>
-    </ul>
-   </div>
-   <div class="footer-container3">
-    <address class="footer-address">
-  <ul class="footer-address-list">
-    <li class="footer-address-item"><a class="footer-address-link" href="">+380 (68) 443-94-26</a></li>
-    <li class="footer-address-item">1678 S. Pioneer Road Salt Lake City UT 84104</li>
-  </ul>
-    </address>
-   </div>
-   <div class="footer-container4"> <a class="footer-container4-link" href="">Privacy Policy / Cookie settings</a>
-    <p class="footer-container4-text">©Green Harvest 2023</p></div>
-</footer>
+    </section>
+
+    <!-- Loads the specified .html file -->
+    <section class="vite-promo">
+  <div class="container">
+    <div class="wrapper">
+      <h2 class="title">
+        <span class="gradient">Vite</span>
+      </h2>
+      <p class="text">Next Generation Frontend Tooling</p>
+      <p class="tagline">
+        Get ready for a development environment that can finally catch up with
+        you.
+      </p>
+
+      <ul class="actions">
+        <li class="action">
+          <a
+            class="link"
+            href="https://vitejs.dev/guide/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Get Started</a
+          >
+        </li>
+        <li class="action">
+          <a
+            class="link"
+            href="https://github.com/vitejs/vite"
+            target="_blank"
+            rel="noopener noreferrer"
+            >View on GitHub</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div class="thumb">
+      <!-- Path to images as from index.html file -->
+      <img
+        class="pic"
+        src="/test/assets/vite-logo-51249ca9.png"
+        alt="Vite logo"
+        width="640"
+        height="640"
+      />
+    </div>
+  </div>
+</section>
+
 
     
   </body>
