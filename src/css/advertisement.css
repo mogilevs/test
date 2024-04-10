@@ -1,5 +1,6 @@
 .advertisement{
 background: #fbfbfb;
+padding: 100px 113px;
 } 
 .advertisement-text{
     font-weight: 600;
@@ -13,5 +14,5 @@ background: #fbfbfb;
     border-radius: 12px;
         width: 808px;
         height: 86px;
-        background: #576f35;
+        background: #9551de;
 }
