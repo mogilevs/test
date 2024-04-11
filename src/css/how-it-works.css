@@ -1,0 +1,135 @@
+.works-conainer {
+    display: block;
+    width: 375px;
+    height: 1184px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.section-works {
+    display: inline-block;
+    padding: 40px 20px;
+    width: 375px;
+
+    background-color: #7a3145;
+    ;
+
+}
+
+.works-image {
+    border-radius: 30px;
+    width: 335px;
+    height: 450px;
+    margin-left: 20px;
+}
+
+
+.works-list {
+    padding: 80px 20px;
+    width: 375px;
+    background-color: #576f35;
+    rgba (20, 20, 20, 0.3);
+}
+
+
+.steps-list {
+    list-style: none;
+    counter-reset: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.steps-list li::before {
+    border-radius: 15px;
+    width: 335px;
+    height: 76px;
+    background-color: #fbfbfb;
+}
+
+
+.works-p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    margin-bottom: 40px;
+    color: #fbfbfb;
+    width: 335px;
+    padding-left: 20px;
+
+}
+
+.works-title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    padding-left: 20px;
+}
+
+.works-title-dsr {
+    color: rgba(251, 251, 251, 0.3);
+}
+
+.steps-item-title {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: rgba(20, 20, 20, 0.6);
+    width: 208px;
+    padding-right: 27px;
+    padding-left: 76px;
+}
+
+.steps-item {
+    border-radius: 15px;
+    padding: 12px 27px 12px 24px;
+    background-color: #fbfbfb;
+
+}
+
+.steps-dsr {
+    font-weight: 700;
+    color: #141414;
+}
+
+.steps-list li {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.steps-list li::before {
+    content: counter(custom-counter);
+    counter-increment: custom-counter;
+    position: absolute;
+    top: 0;
+    border-radius: 100%;
+    fill: #7a3145;
+    stroke-width: 5px;
+    stroke: rgba(122, 49, 69, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    background-color: #7a3145;
+    color: #fbfbfb;
+
+    margin: 12px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.0;
+    letter-spacing: -0.02em;
+}
