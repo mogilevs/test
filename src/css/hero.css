@@ -1,7 +1,3 @@
 .section {
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    flex-direction: row;
-    gap: 28px;
 }
